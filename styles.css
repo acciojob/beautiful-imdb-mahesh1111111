@@ -1,2 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
 
-/* Your CSS Code here. */
+.movie-container {
+  position: relative;
+  text-align: center;
+}
+
+.moviePic {
+  height: 300px;
+  width: 200px;
+  opacity: 0.8;
+}
+
+.movieDetail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  text-align: justify;
+  font-size: 18px;
+}
